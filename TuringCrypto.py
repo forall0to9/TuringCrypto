@@ -143,7 +143,7 @@ def cancel(bot, update):
 
 def main():
     # Create the EventHandler and pass it your bot's token.
-    updater = Updater("653434185:AAEUwysaKk88Le6ygB-qTTb-uMdKEyhG6Jw")
+    updater = Updater("<your token>")
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
